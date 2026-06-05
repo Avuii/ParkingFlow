@@ -533,7 +533,7 @@ public class ParkingService
             Timestamp = DateTime.Now
         });
 
-        if (_events.Count > 80)
+        if (_events.Count > 200)
         {
             _events.RemoveAt(0);
         }
